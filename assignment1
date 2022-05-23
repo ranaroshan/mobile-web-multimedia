@@ -4,37 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Max and min </title>
+    <title> Welcome to mypersonal website </title>
     <style type="text/css">
    body{
        background: #222;
        padding: 0px;
        padding-top: 32px;
    }
-   .card{
-       background-color: white;
-    
-       border-radius: 8px;
-       max-width: 400px;
-       margin-left: auto;
-       margin-right: auto;
-       padding-left: 90px;
-       padding-right: 90px;
-
-   }
-   p{
-       margin-bottom: 16px;   }
-
-    </style>
-    
-</head>
-<body>
-    <div class="card">
-    <p>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam facere quibusdam pariatur, amet quia repellat. Sunt, fugiat laboriosam reprehenderit enim, dolore, exercitationem 
-    voluptatibus dignissimos at placeat laudantium aliquid aut distinctio?
-   
-</p>
+</body>
 </div>
 </body>
 </html>
