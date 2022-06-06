@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamsal Apil</title>
+    
+</head>
+<style>
+    body{
+        background-color: rgb(245, 231, 162);
+    }
+    .construction{
+        
+        display: flex;
+   
+        height: 100px;
+        width: 500px;
+        margin: auto;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+
+
+.anim {
+ 
+   border-color:black;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.dot1 {
+  animation: jump 1.6s -0.32s linear infinite;
+  padding-right: 10px;
+}
+.dot2 {
+    animation: jump 1.6s -0.16s linear infinite;
+    padding-right: 10px;
+}
+.dot3 {
+  
+    animation: jump 1.6s linear infinite;
+    
+}
+
+@keyframes jump {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(2.0);
+    transform: scale(2.0);
+  }
+}
+</style>
+<body>
+    <section class="construction"> Under Construction <a class="anim"><a class="dot1">.</a><a class="dot2">.</a><a class="dot3">.</a>
+    </section>
+</body>
+</html>
